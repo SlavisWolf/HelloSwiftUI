@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5213E9C82A2E0110008B7E0C /* SceneStorageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */; };
 		527358CB2A2E078D000F0831 /* AsyncImageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */; };
+		527358CD2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527358CC2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift */; };
 		A97067162A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067152A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift */; };
 		A97067182A2CE6B600E6E67C /* ContextMenuViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067172A2CE6B600E6E67C /* ContextMenuViewExample.swift */; };
 		A970671A2A2CEF4000E6E67C /* TapGestureViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067192A2CEF4000E6E67C /* TapGestureViewExample.swift */; };
@@ -67,6 +68,7 @@
 /* Begin PBXFileReference section */
 		5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageViewExample.swift; sourceTree = "<group>"; };
 		527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewExample.swift; sourceTree = "<group>"; };
+		527358CC2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeResfreshableViewExample.swift; sourceTree = "<group>"; };
 		A97067152A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogViewExample.swift; sourceTree = "<group>"; };
 		A97067172A2CE6B600E6E67C /* ContextMenuViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuViewExample.swift; sourceTree = "<group>"; };
 		A97067192A2CEF4000E6E67C /* TapGestureViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewExample.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				A97067232A2D0EF900E6E67C /* AppStorageViewExample.swift */,
 				5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */,
 				527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */,
+				527358CC2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				A9FD99BC2A2BAA6E008E76CC /* PickersViewExample.swift in Sources */,
 				A9BD96062A2C7710003CA927 /* FormViewExample.swift in Sources */,
 				A9BD96082A2C7A69003CA927 /* ListViewExample.swift in Sources */,
+				527358CD2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift in Sources */,
 				A97067222A2D0A0000E6E67C /* EnviromentObjectViewExample.swift in Sources */,
 				527358CB2A2E078D000F0831 /* AsyncImageViewExample.swift in Sources */,
 				A97067242A2D0EF900E6E67C /* AppStorageViewExample.swift in Sources */,
