@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5213E9C82A2E0110008B7E0C /* SceneStorageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */; };
+		527358CB2A2E078D000F0831 /* AsyncImageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */; };
 		A97067162A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067152A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift */; };
 		A97067182A2CE6B600E6E67C /* ContextMenuViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067172A2CE6B600E6E67C /* ContextMenuViewExample.swift */; };
 		A970671A2A2CEF4000E6E67C /* TapGestureViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97067192A2CEF4000E6E67C /* TapGestureViewExample.swift */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageViewExample.swift; sourceTree = "<group>"; };
+		527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewExample.swift; sourceTree = "<group>"; };
 		A97067152A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogViewExample.swift; sourceTree = "<group>"; };
 		A97067172A2CE6B600E6E67C /* ContextMenuViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuViewExample.swift; sourceTree = "<group>"; };
 		A97067192A2CEF4000E6E67C /* TapGestureViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewExample.swift; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				A970671F2A2CF99900E6E67C /* ObjectsViewExample.swift */,
 				A97067212A2D0A0000E6E67C /* EnviromentObjectViewExample.swift */,
 				A97067232A2D0EF900E6E67C /* AppStorageViewExample.swift */,
+				5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */,
+				527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 			files = (
 				A9FD99B22A2B8DC8008E76CC /* LabelViewExample.swift in Sources */,
 				A9FD99B02A2B8B10008E76CC /* StateExample.swift in Sources */,
+				5213E9C82A2E0110008B7E0C /* SceneStorageViewExample.swift in Sources */,
 				A9FD99AE2A2B8811008E76CC /* SymbolsExample.swift in Sources */,
 				A9C857F82A293CC600BC24A4 /* ImageViewExample.swift in Sources */,
 				A9FD99B82A2BA1FD008E76CC /* TextfieldViewExample.swift in Sources */,
@@ -362,6 +369,7 @@
 				A9BD96062A2C7710003CA927 /* FormViewExample.swift in Sources */,
 				A9BD96082A2C7A69003CA927 /* ListViewExample.swift in Sources */,
 				A97067222A2D0A0000E6E67C /* EnviromentObjectViewExample.swift in Sources */,
+				527358CB2A2E078D000F0831 /* AsyncImageViewExample.swift in Sources */,
 				A97067242A2D0EF900E6E67C /* AppStorageViewExample.swift in Sources */,
 				A9FD99B42A2B8EB6008E76CC /* TextViewExample.swift in Sources */,
 				A9BD960C2A2C9214003CA927 /* TabViewExample.swift in Sources */,
