@@ -13,6 +13,7 @@
 		52D2571F2A2F174400A971FA /* ReduxViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2571E2A2F174400A971FA /* ReduxViewExample.swift */; };
 		52D257292A2F38A600A971FA /* RedactedViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D257282A2F38A600A971FA /* RedactedViewExample.swift */; };
 		52D2572B2A2F390A00A971FA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2572A2A2F390A00A971FA /* RootView.swift */; };
+		52D2572D2A2F64D000A971FA /* FontWithViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */; };
 		A96F336C2A2E5E2700250AE6 /* GeometryReaderViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336B2A2E5E2700250AE6 /* GeometryReaderViewExample.swift */; };
 		A96F336E2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336D2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift */; };
 		A96F33702A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336F2A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift */; };
@@ -80,6 +81,7 @@
 		52D2571E2A2F174400A971FA /* ReduxViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxViewExample.swift; sourceTree = "<group>"; };
 		52D257282A2F38A600A971FA /* RedactedViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedViewExample.swift; sourceTree = "<group>"; };
 		52D2572A2A2F390A00A971FA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWithViewExample.swift; sourceTree = "<group>"; };
 		A96F336B2A2E5E2700250AE6 /* GeometryReaderViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderViewExample.swift; sourceTree = "<group>"; };
 		A96F336D2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderStacksViewExample.swift; sourceTree = "<group>"; };
 		A96F336F2A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScrollViewExample.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				A96F33712A2E6AD300250AE6 /* ViewModifierViewExample.swift */,
 				A96F33732A2E7BC200250AE6 /* PreferenceKeyViewExample.swift */,
 				52D257282A2F38A600A971FA /* RedactedViewExample.swift */,
+				52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */,
 			);
 			path = BasicExamples;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				A97067202A2CF99900E6E67C /* ObjectsViewExample.swift in Sources */,
 				A97067182A2CE6B600E6E67C /* ContextMenuViewExample.swift in Sources */,
 				A970671A2A2CEF4000E6E67C /* TapGestureViewExample.swift in Sources */,
+				52D2572D2A2F64D000A971FA /* FontWithViewExample.swift in Sources */,
 				A9FD99B62A2B984C008E76CC /* ButtonViewExample.swift in Sources */,
 				A9BD96042A2C72F3003CA927 /* LazyGridViewExample.swift in Sources */,
 				A96F33742A2E7BC200250AE6 /* PreferenceKeyViewExample.swift in Sources */,
@@ -614,8 +618,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,8 +646,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
