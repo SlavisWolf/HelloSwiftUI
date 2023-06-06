@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MovalsViewExample: View {
+struct ModalsViewExample: View {
     
     @State var isPresented = false
     
@@ -35,8 +35,8 @@ struct MovalsViewExample: View {
     }
 }
 
-struct MovalsViewExample_Previews: PreviewProvider {
+struct ModalsViewExample_Previews: PreviewProvider {
     static var previews: some View {
-        MovalsViewExample()
+        ModalsViewExample()
     }
 }
