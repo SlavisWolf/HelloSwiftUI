@@ -9,8 +9,8 @@ import SwiftUI
 
 struct FontWithViewExample: View {
     var body: some View {
+        
         TabView {
-            
             View1()
                 .padding()
                 .tabItem {

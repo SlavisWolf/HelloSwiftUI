@@ -56,7 +56,8 @@ fileprivate let examples: [RootViewCellModel] = [
     RootViewCellModel(visibleText: "Preference key example", destination: AnyView(PreferenceKeyViewExample() ) ),
     RootViewCellModel(visibleText: "Redux architecture", destination: AnyView(ReduxViewExample() ) ),
     RootViewCellModel(visibleText: "Redacted example", destination: AnyView(RedactedViewExample() ) ),
-    RootViewCellModel(visibleText: "Font with example", destination: AnyView(FontWithViewExample() ) )
+    RootViewCellModel(visibleText: "Font with example", destination: AnyView(FontWithViewExample() ) ),
+    RootViewCellModel(visibleText: "Mask example", destination: AnyView(MaskViewExample() ) )
 ]
 
 
