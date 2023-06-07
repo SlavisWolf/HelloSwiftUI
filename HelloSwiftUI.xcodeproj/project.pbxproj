@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520319162A306113001E1788 /* OverlayViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520319152A306113001E1788 /* OverlayViewExample.swift */; };
 		5213E9C82A2E0110008B7E0C /* SceneStorageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */; };
 		527358CB2A2E078D000F0831 /* AsyncImageViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */; };
 		527358CD2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527358CC2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift */; };
@@ -14,6 +15,7 @@
 		52D257292A2F38A600A971FA /* RedactedViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D257282A2F38A600A971FA /* RedactedViewExample.swift */; };
 		52D2572B2A2F390A00A971FA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2572A2A2F390A00A971FA /* RootView.swift */; };
 		52D2572D2A2F64D000A971FA /* FontWithViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */; };
+		52D257322A2F80EC00A971FA /* MaskViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D257312A2F80EC00A971FA /* MaskViewExample.swift */; };
 		A96F336C2A2E5E2700250AE6 /* GeometryReaderViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336B2A2E5E2700250AE6 /* GeometryReaderViewExample.swift */; };
 		A96F336E2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336D2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift */; };
 		A96F33702A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F336F2A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift */; };
@@ -75,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520319152A306113001E1788 /* OverlayViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewExample.swift; sourceTree = "<group>"; };
 		5213E9C72A2E0110008B7E0C /* SceneStorageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageViewExample.swift; sourceTree = "<group>"; };
 		527358CA2A2E078D000F0831 /* AsyncImageViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageViewExample.swift; sourceTree = "<group>"; };
 		527358CC2A2E0E8A000F0831 /* SwipeResfreshableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeResfreshableViewExample.swift; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 		52D257282A2F38A600A971FA /* RedactedViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedViewExample.swift; sourceTree = "<group>"; };
 		52D2572A2A2F390A00A971FA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWithViewExample.swift; sourceTree = "<group>"; };
+		52D257312A2F80EC00A971FA /* MaskViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewExample.swift; sourceTree = "<group>"; };
 		A96F336B2A2E5E2700250AE6 /* GeometryReaderViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderViewExample.swift; sourceTree = "<group>"; };
 		A96F336D2A2E644C00250AE6 /* GeometryReaderStacksViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderStacksViewExample.swift; sourceTree = "<group>"; };
 		A96F336F2A2E66DE00250AE6 /* GeometryReaderScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScrollViewExample.swift; sourceTree = "<group>"; };
@@ -196,6 +200,8 @@
 				A96F33732A2E7BC200250AE6 /* PreferenceKeyViewExample.swift */,
 				52D257282A2F38A600A971FA /* RedactedViewExample.swift */,
 				52D2572C2A2F64D000A971FA /* FontWithViewExample.swift */,
+				52D257312A2F80EC00A971FA /* MaskViewExample.swift */,
+				520319152A306113001E1788 /* OverlayViewExample.swift */,
 			);
 			path = BasicExamples;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				52D2571F2A2F174400A971FA /* ReduxViewExample.swift in Sources */,
 				A9FD99B42A2B8EB6008E76CC /* TextViewExample.swift in Sources */,
 				A9BD960C2A2C9214003CA927 /* TabViewExample.swift in Sources */,
+				52D257322A2F80EC00A971FA /* MaskViewExample.swift in Sources */,
 				A9FD99C02A2BB7A5008E76CC /* LinkViewExample.swift in Sources */,
 				A97067202A2CF99900E6E67C /* ObjectsViewExample.swift in Sources */,
 				A97067182A2CE6B600E6E67C /* ContextMenuViewExample.swift in Sources */,
@@ -451,6 +458,7 @@
 				A9FD99C62A2BCD0A008E76CC /* SliderViewExample.swift in Sources */,
 				A9C857CD2A2931C800BC24A4 /* HelloSwiftUIApp.swift in Sources */,
 				A97067162A2CDE0000E6E67C /* ConfirmationDialogViewExample.swift in Sources */,
+				520319162A306113001E1788 /* OverlayViewExample.swift in Sources */,
 				A970671E2A2CF61900E6E67C /* BindingViewExample.swift in Sources */,
 				A9FD99C22A2BC8E1008E76CC /* ToggleViewExample.swift in Sources */,
 				A9FD99C42A2BC9C4008E76CC /* StepperViewExample.swift in Sources */,
