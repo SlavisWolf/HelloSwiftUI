@@ -58,7 +58,9 @@ fileprivate let examples: [RootViewCellModel] = [
     RootViewCellModel(visibleText: "Redacted example", destination: AnyView(RedactedViewExample() ) ),
     RootViewCellModel(visibleText: "Font with example", destination: AnyView(FontWithViewExample() ) ),
     RootViewCellModel(visibleText: "Mask example", destination: AnyView(MaskViewExample() ) ),
-    RootViewCellModel(visibleText: "Overlay example", destination: AnyView(OverlayViewExample() ) )
+    RootViewCellModel(visibleText: "Overlay example", destination: AnyView(OverlayViewExample() ) ),
+    RootViewCellModel(visibleText: "Toolbar example", destination: AnyView(ToolbarModifierViewExample() ) ),
+    RootViewCellModel(visibleText: "Preview modifiers example", destination: AnyView(PreviewModifiersViewExample() ) )
 ]
 
 
